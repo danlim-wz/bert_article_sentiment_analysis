@@ -12,7 +12,7 @@ The model achieved an accuracy of **92.6%** when tested on the 25k instances of 
 Model was trained on a GeForce GTX 1660 with sentence length of 256 and batch size of 6 for 4 epochs with a learning rate of 2e-5.
 
 **Test on articles:**
-I proceeded to test this model on 3 random news articles (in the articles folder), results displayed is the argmax of the softmax scores of the overall sentiment of the article being positive/negative:
+The model was subsequently tested on 3 random news articles (in the articles folder), results displayed is the argmax of the softmax scores of the overall sentiment of the article being positive/negative:
 
 1) Banks in Hong Kong condemn violence, urge restoration of 'harmony'
   **_Result: Negative (0.72)_**
