@@ -38,7 +38,6 @@ def inference():
     logits = softmax(logits[0]).numpy()
 
     #output result
-    # for item in logits:
     pos_neg = np.argmax(logits, axis=0)
     if pos_neg == 0:
         return make_response('Overall sentiment: ' + 'positive ' + str(logits[0]))
