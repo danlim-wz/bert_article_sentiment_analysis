@@ -9,7 +9,7 @@ import os
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 #tunable parameters
-MAX_LEN = 128
+MAX_LEN = 256
 batch_size = 6
 epochs = 4
 learning_rate = 2e-5
