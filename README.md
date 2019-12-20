@@ -3,7 +3,7 @@
 This repo is an implementation of Google's paper on *Bidirectional Encoder Representations from Transformers*(BERT) for sentiment analysis on articles, using *huggingface*'s Pytorch NLP wrapper: https://github.com/huggingface/pytorch-transformers.
 
 # Usage
-The BERT model was placed in a Flask RESTFul API which can run on any server to output the overall sentiment of the article.
+The BERT model was placed in a RESTFul API which can run on any server to output the overall sentiment of the article.
 
 **Model weights:** https://drive.google.com/file/d/1pBvpez7OTFjE7UAdeyDS0pqhA0PkXjvv/view?usp=sharing
 
