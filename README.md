@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```javascript
 python bert_training.py 
 ```
-Use **curl** or **POSTMAN** to post your article to the API. A sentiment(postive/negative) along with the confidence will be returned.
+Use **curl** or **POSTMAN** to post your article to the API. A sentiment(positive/negative) along with the confidence will be returned.
 
 **_e.g. curl (IP address):8000 -F input=@path_to_your_article.txt_**
 
