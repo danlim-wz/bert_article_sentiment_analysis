@@ -16,7 +16,7 @@ pip install -r requirements.txt
 3) Download the model weights and add it to the folder
 4) Launch the API
 ```javascript
-python bert_training.py 
+python bert_inference.py 
 ```
 Use **curl** or **POSTMAN** to post your article to the API. A sentiment(positive/negative) along with the confidence will be returned.
 
